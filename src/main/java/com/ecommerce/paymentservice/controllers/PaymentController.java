@@ -33,6 +33,13 @@ public class PaymentController {
     @PostMapping("/webhook")
     public void triggerWebhook(){
 
+        /* Future Scope:
+         1. Verify Razorpay/Stripe webhook signature
+         2. Validate payment event payload
+         3. Update payment status in database
+         4. Trigger order confirmation workflow
+         5. Maintain audit logs */
+
         System.out.println("Webhook Triggered");
     }
 
