@@ -29,13 +29,13 @@ platforms, or simply giving the repository a ⭐️ to support the project and t
 
 ## Ways to contribute
 
-There are several ways you can contribute to Payment Service.
+There are several ways you can contribute to **Payment Service**.
 
-* Feature Development: Add new features such as transaction tracking, refund handling, invoice generation, or support for new payment methods.
-* Bug Fixes: Identify and fix issues in the existing system.
-* Performance Optimization: Improve response times, database queries, or overall service performance and scalability.
-* Documentation: Enhance this README or create new documentation for onboarding contributors.
-* Testing: Write unit, integration, or end-to-end tests to improve system reliability.
+* **Feature Development**: Add new features such as transaction tracking, refund handling, invoice generation, or support for new payment methods.
+* **Bug Fixes**: Identify and fix issues in the existing system.
+* **Performance Optimization**: Improve response times, database queries, or overall service performance and scalability.
+* **Documentation**: Enhance this README or create new documentation for onboarding contributors.
+* **Testing**: Write unit, integration, or end-to-end tests to improve system reliability.
 
 > All contributions are equally valuable to the community. 🥰
 
@@ -49,7 +49,7 @@ your request more efficiently and provide better feedback.
 
 ### Did you find a bug?
 
-Payment Service becomes more reliable and scalable through community feedback, issue reporting, and meaningful contributions from developers.
+**Payment Service** becomes more reliable and scalable through community feedback, issue reporting, and meaningful contributions from developers.
 
 Before you report an issue, we would really appreciate it if you could **make sure the bug was not
 already reported** (use the search bar on GitHub under Issues). Your issue should also be related to bugs in the 
@@ -58,7 +58,7 @@ service itself, and not issues caused by unrelated application code.
 Once you've confirmed the bug hasn't already been reported, please include the following information in your issue so 
 we can quickly resolve it:
 
-* Your OS type and version, Java version, Spring Boot version, database details, and any relevant dependency versions.
+* Your **OS type** and version, **Java** version, **Spring Boot** version, **database details**, and any relevant **dependency** versions.
 * A short, self-contained, code snippet that allows us to reproduce the bug.
 * The *full* stack trace or error logs if an exception is raised.
 * Attach any other additional information, like screenshots, you think may help.
@@ -86,7 +86,7 @@ changes or help you make a contribution if you're interested!
 
 ## Fixing outstanding issues
 
-If you notice an issue with the existing code and have a fix in mind, feel free to [start contributing](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) and open
+If you notice an issue with the existing code and have a fix in mind, feel free to **[start contributing](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)** and open
 a Pull Request!
 
 ### Making code changes
@@ -135,8 +135,7 @@ a Pull Request!
 
 ## I want to become a maintainer of the project. How do I get there?
 
-Payment Service is an open-source backend microservice project designed as part of the E-Commerce Platform ecosystem. Contributors 
-interested in improving scalability, security, payment workflows, caching, testing, and backend architecture are always welcome.
+**Payment Service** is an open-source backend microservice project designed as part of the **E-Commerce Platform** ecosystem. Contributors interested in improving scalability, security, payment workflows, caching, testing, and backend architecture are always welcome.
 
 We are always happy to welcome motivated individuals who want to contribute as maintainers and help Payment Service evolve into a 
 scalable and reliable backend payment microservice.
