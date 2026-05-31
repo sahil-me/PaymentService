@@ -51,12 +51,9 @@ your request more efficiently and provide better feedback.
 
 **Payment Service** becomes more reliable and scalable through community feedback, issue reporting, and meaningful contributions from developers.
 
-Before you report an issue, we would really appreciate it if you could **make sure the bug was not
-already reported** (use the search bar on GitHub under Issues). Your issue should also be related to bugs in the 
-service itself, and not issues caused by unrelated application code. 
+Before you report an issue, we would really appreciate it if you could **make sure the bug was not already reported** (use the search bar on GitHub under Issues). Your issue should also be related to bugs in the service itself, and not issues caused by unrelated application code. 
 
-Once you've confirmed the bug hasn't already been reported, please include the following information in your issue so 
-we can quickly resolve it:
+Once you've confirmed the bug hasn't already been reported, please include the following information in your issue so we can quickly resolve it:
 
 * Your **OS type** and version, **Java** version, **Spring Boot** version, **database details**, and any relevant **dependency** versions.
 * A short, self-contained, code snippet that allows us to reproduce the bug.
@@ -65,14 +62,13 @@ we can quickly resolve it:
 
 ### Do you want a new feature?
 
-If there is a new feature you'd like to see in Payment Service, please open an issue and describe:
+If there is a new feature you'd like to see in **Payment Service**, please open an issue and describe:
 
 1. What is the *motivation* behind this feature? Is it related to a problem, limitation, or frustration with the current implementation?
 
    Whatever it is, we'd love to hear about it!
 
-2. Describe your requested feature in as much detail as possible. The more you can tell us about it, the better 
-   we'll be able to help you.
+2. Describe your requested feature in as much detail as possible. The more you can tell us about it, the better we'll be able to help you.
 3. Provide a *code snippet* that demonstrates the feature's usage.
 4. If the feature is related to a paper, please include a link.
 
@@ -137,7 +133,7 @@ a Pull Request!
 
 **Payment Service** is an open-source backend microservice project designed as part of the **E-Commerce Platform** ecosystem. Contributors interested in improving scalability, security, payment workflows, caching, testing, and backend architecture are always welcome.
 
-We are always happy to welcome motivated individuals who want to contribute as maintainers and help Payment Service evolve into a 
+We are always happy to welcome motivated individuals who want to contribute as maintainers and help **Payment Service** evolve into a 
 scalable and reliable backend payment microservice.
 
 If you are interested in contributing at a deeper level, feel free to reach out and collaborate with us.
