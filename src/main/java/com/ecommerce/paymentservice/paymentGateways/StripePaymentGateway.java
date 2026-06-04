@@ -26,7 +26,7 @@ public class StripePaymentGateway implements PaymentGateway {
                                                         .setUnitAmount(amount)
                                                         .setProductData(
                                                                 SessionCreateParams.LineItem.PriceData.ProductData.builder()
-                                                                        .setName("E-Commerce Payment")
+                                                                        .setName("Order Payment")
                                                                         .build()
                                                         )
                                                         .build()

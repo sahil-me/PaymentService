@@ -33,7 +33,7 @@ public class RazorpayPaymentGateway implements PaymentGateway {
                 (System.currentTimeMillis() / 1000) + (20 * 60)
         );
         paymentLinkRequest.put("reference_id", order_id.toString());
-        paymentLinkRequest.put("description", "Payment for buying biscuits");
+        paymentLinkRequest.put("description", "Order Payment");
 
         JSONObject customer = new JSONObject();
         customer.put("name", name);
