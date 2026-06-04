@@ -1,6 +1,6 @@
 # 🛒 E-Commerce Platform 🛍
 
-https://github.com/user-attachments/assets/308838ce-b901-4b72-a743-fa37502c4b33
+https://github.com/user-attachments/assets/dba5fe24-f68a-422a-a420-c246578d0ae5
 
 > 🎥 Payment Service Demonstration!
 
@@ -31,7 +31,7 @@ https://github.com/user-attachments/assets/308838ce-b901-4b72-a743-fa37502c4b33
     - [Part 1: Product Search](#part-1-product-search)
     - [Part 2: Add to Cart](#part-2-add-to-cart)
     - [Part 3: Checkout](#part-3-checkout)
-- [Learning Resources](#learning-resources)
+- [Resources](#resources)
 - [Contributing](#contributing)
 - [License](#license)
 - [Author](#author)
@@ -145,7 +145,7 @@ The project demonstrates real-world backend engineering concepts including RESTf
 
 ---
 
-## Learning Resources
+## Resources
 
 [![Razorpay](https://img.shields.io/badge/Razorpay-Payment%20Links-0C73FE?style=for-the-badge&logo=razorpay&logoColor=white)](https://razorpay.com/docs/payments/payment-links/apis/)
 [![Razorpay](https://img.shields.io/badge/Razorpay-Checkout%20Theme-0C73FE?style=for-the-badge&logo=razorpay&logoColor=white)](https://razorpay.com/docs/api/payments/payment-links/checkout-theme/)
