@@ -2,7 +2,7 @@
 
 ## Infrastructure
 
-[![Spring Cloud | Eureka Server](https://img.shields.io/badge/Spring%20Cloud-Eureka%20Server-6DB33F?style=for-the-badge&logo=spring&logoColor=white)](https://github.com/sahil-me/ServiceDiscovery)
+[![Spring Cloud | Service Discovery](https://img.shields.io/badge/Spring%20Cloud-Service%20Discovery-6DB33F?style=for-the-badge&logo=spring&logoColor=white)](https://github.com/sahil-me/ServiceDiscovery)
 [![Spring Cloud | API Gateway](https://img.shields.io/badge/Spring%20Cloud-API%20Gateway-6DB33F?style=for-the-badge&logo=spring&logoColor=white)](https://github.com/sahil-me/ApiGateway)
 
 ## Business Services
