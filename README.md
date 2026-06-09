@@ -1,5 +1,17 @@
 # 🛒 E-Commerce Platform 🛍
 
+## Infrastructure
+
+[![Spring Cloud | Service Discovery](https://img.shields.io/badge/Spring%20Cloud-Service%20Discovery-6DB33F?style=for-the-badge&logo=spring&logoColor=white)](https://github.com/sahil-me/ServiceDiscovery)
+[![Spring Cloud | API Gateway](https://img.shields.io/badge/Spring%20Cloud-API%20Gateway-6DB33F?style=for-the-badge&logo=spring&logoColor=white)](https://github.com/sahil-me/ApiGateway)
+
+## Business Services
+
+[![Microservice | User Service](https://img.shields.io/badge/Microservice-User%20Service-007EC6?style=for-the-badge&labelColor=555555&logo=spring&logoColor=white)](https://github.com/sahil-me/UserService)
+[![Microservice | Product Service](https://img.shields.io/badge/Microservice-Product%20Service-007EC6?style=for-the-badge&labelColor=555555&logo=spring&logoColor=white)](https://github.com/sahil-me/ProductService)
+[![Microservice | Payment Service](https://img.shields.io/badge/Microservice-Payment%20Service-007EC6?style=for-the-badge&labelColor=555555&logo=spring&logoColor=white)](https://github.com/sahil-me/PaymentService)
+[![Microservice | Email Service](https://img.shields.io/badge/Microservice-Email%20Service-007EC6?style=for-the-badge&labelColor=555555&logo=spring&logoColor=white)](https://github.com/sahil-me/EmailService)
+
 https://github.com/user-attachments/assets/dba5fe24-f68a-422a-a420-c246578d0ae5
 
 > 🎥 Payment Service Demonstration!
@@ -8,6 +20,7 @@ https://github.com/user-attachments/assets/dba5fe24-f68a-422a-a420-c246578d0ae5
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Architecture Diagram](#architecture-diagram)
 - [Project Structure](#project-structure)
 - [Tech Stack](#tech-stack)
 - [Product Requirements Document (PRD)](#product-requirements-document-prd)
@@ -46,25 +59,51 @@ The project demonstrates real-world backend engineering concepts including RESTf
 
 ---
 
+## Architecture Diagram
+
+    Client
+       │
+       ▼
+    API Gateway
+       │
+       ▼
+    Service Discovery
+       │
+       ├── User Service
+       ├── Product Service
+       ├── Payment Service
+       └── Email Service
+
+---
+
 ## Project Structure
 
-**
+    E-Commerce-Platform/
+    │
+    ├── ServiceDiscovery/   # Eureka Service Registry
+    ├── ApiGateway/         # API Gateway
+    ├── UserService/        # User Management
+    ├── ProductService/     # Product Catalog Management
+    ├── PaymentService/     # Payment Integration
+    └── EmailService/       # Email Notifications 
 
 ---
 
 ## Tech Stack
 
-| Technology     | Purpose                            |
-| -------------- | ---------------------------------- |
-| Java 17        | Programming Language               |
-| Spring Boot 4  | Backend Framework                  |
-| Spring Web MVC | REST API Development               |
-| Razorpay SDK   | Payment Gateway Integration        |
-| Stripe SDK     | Payment Gateway Integration        |
-| Lombok         | Boilerplate Code Reduction         |
-| Maven          | Dependency Management & Build Tool |
-| JUnit 5        | Unit & Integration Testing         |
-| IntelliJ IDEA  | Development Environment            |
+| Technology                         | Purpose                                  |
+| ---------------------------------- | ---------------------------------------- |
+| Java 17                            | Core Programming Language                |
+| Spring Boot 3.4                    | Application Framework                    |
+| Spring Web                         | RESTful API Development                  |
+| Razorpay Java SDK                  | Razorpay Payment Gateway Integration     |
+| Stripe Java SDK                    | Stripe Payment Gateway Integration       |
+| Spring Cloud Netflix Eureka Client | Service Discovery                        |
+| Lombok                             | Boilerplate Code Reduction               |
+| Maven                              | Build Automation & Dependency Management |
+| JUnit 5                            | Testing Framework                        |
+| Spring Boot DevTools               | Development & Hot Reload Support         |
+| IntelliJ IDEA                      | Integrated Development Environment       |
 
 ---
 
